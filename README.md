@@ -1,8 +1,14 @@
-# cb-spider
-CB-Spider is a sub-Framework of the Cloud-Barista Multi-Cloud Project.
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg) ![ubuntu-passing](https://img.shields.io/badge/Ubuntu18.04-passing-success) ![ubuntu-passing](https://img.shields.io/badge/Android%20aarch64-passing-success)
 
-The CB-Spider Mission is to connect all the clouds with a single interface.
+# CB-Spider
 
+CB-Spider is **a framework for multi-cloud infrastructure federation** in Cloud-Barista. 
+
+We will continue to move forward until CB-Spider can **connect and use all heterogeneous clouds with a single interface**. With CB-Spider, you can easily use multi-cloud because CB-Spider takes care of complex processes caused by different services from multiple CSPs.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/7975459/99775786-323bec80-2b53-11eb-967d-1b469f407dae.png">
+</p>
 
 ```
 [NOTE]
@@ -17,6 +23,8 @@ If you have any difficulties in using CB-Spider, please let us know.
   - cf) [old README(Go 1.12.x-based, Cappuccino)](https://github.com/cloud-barista/cb-spider/wiki/Old-Installation-Guide(until-Cappuccino))
 ***
 
+## CB-Spider 시작하기
+
 #### [목    차]
 
 1. [실행 환경](#실행-환경)
@@ -25,7 +33,7 @@ If you have any difficulties in using CB-Spider, please let us know.
 4. [활용 예시](#활용-예시)
 5. [특이 사항](#특이-사항)
 6. [관련 정보](#관련-정보)
- 
+
 ***
 
 #### [실행 환경]
@@ -35,6 +43,7 @@ If you have any difficulties in using CB-Spider, please let us know.
 
 #### [실행 방법]
 
+CB-Spider는 아래와 같이 3가지 방법으로 실행할 수 있습니다.
 - ##### 소스 기반 실행: https://github.com/cloud-barista/cb-spider/wiki/Quick-Start-Guide
 - ##### 컨테이너 기반 실행: https://github.com/cloud-barista/cb-spider/wiki/Docker-based-Start-Guide
 - ##### cb-operator 기반 실행: https://github.com/cloud-barista/cb-operator
@@ -54,7 +63,7 @@ If you have any difficulties in using CB-Spider, please let us know.
     - (자원관리) 자원 생성 순서
     - (1) vpc, security group, keypair 생성
     - (2) vm 생성 및 제어
-    - (3)	삭제는 자원 생성 역순
+    - (3) 삭제는 자원 생성 역순
 - CSP별 VM User: 2020.11.04.현재 
 
   | CSP        | user ID          | 비고 |
